@@ -186,8 +186,24 @@ background: var(--hero-footer-color);
 margin-bottom: 0;
 padding-top: 200px;
 padding-bottom: 280px;
+max-width: 1600px;
+height: 600px;
+margin: 0 auto;
 }
 
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)), url(./image.css/hero-image.png);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+
+   
+
+}
 .hero-title {        
     width: 696px;
 
@@ -367,6 +383,37 @@ color: var(--hero-footer-color);
     margin-left: 30px;
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: orange;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.soc-link {
+
+}
+ .soc-item + .soc-item {
+    margin-left: 10px;
+}
+
+.socials :hover,
+.socials :focus {
+   background-color: var(--button-color);
+   color: red;
+}
  /*second-page*/
  
 /*main*/
