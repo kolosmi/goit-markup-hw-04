@@ -150,6 +150,7 @@ margin-left: 50px;
 
 .contacts-mail,
 .contacts-phone {
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -399,21 +400,30 @@ color: var(--hero-footer-color);
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-    
+ 
 }
 
-.soc-link {
+.soc-item :hover{
+    background-color: var(--button-color);
 
 }
+
+.soc-icon {
+    fill: #AFB1B8;
+}
+
+.soc-link:hover .soc-icon,
+.soc-link:focus .soc-icon  {                       
+    fill: #ffffff;
+  
+}
+
+
  .soc-item + .soc-item {
     margin-left: 10px;
 }
 
-.socials :hover,
-.socials :focus {
-   background-color: var(--button-color);
-   color: red;
-}
+
  /*second-page*/
  
 /*main*/
@@ -582,4 +592,33 @@ margin-right: 30px;
 
 .footer-item :last-child {
     margin-bottom: 0;
+}
+
+.join {
+    display: flex;
+    
+    display: inline-block;
+    width: 206px;
+    height: 80px;
+    background-color: teal;
+   position: relative;
+  margin-left: 500px;
+  
+  }
+   
+
+.join-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+    margin-left: 0;
+    margin-bottom: 20px;
+    
 }
