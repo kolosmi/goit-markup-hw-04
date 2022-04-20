@@ -28,11 +28,16 @@
             </ul>
         </nav>
         <ul class="contacts-list list">
-            <li class="contacts-item"> <a href="mailto:info@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
-            <li class="contacts-item"> <a href="tel:+380961111111" class="contacts-phone link">+38 096 111 11 11</a></li>
+            <li class="contacts-item"> <svg class="header-icon" width="16px" height="14.25px">
+                    <use href="./images/symbol2-defs.svg#icon-envelope"></use>
+                </svg> <a href="mailto:info@devstudio.com" class="contacts-mail link">info@devstudio.com</a></li>
+            <li class="contacts-item"> <svg class="header-icon" width="10px" height="16">
+                    <use href="./images/symbol2-defs.svg#icon-smartphone"></use>
+                </svg> <a href="tel:+380961111111" class="contacts-phone link">+38 096 111 11 11</a></li>
         </ul>
     </div>
 </header>
+
 
 <main>
 <section class="main">
@@ -45,8 +50,9 @@
         <li class="btn"><button type="button" class="navigation-button"> Дизайн</button></li>
         <li class="btn"><button type="button" class="navigation-button"> Маркетинг</button></li>
     </ul>
-    <ul class="portfolio-list list">
-        <li class="portfolio-item">
+    
+    <ul class="portfolio-list list">        
+        <li class="portfolio-item">            
             <img src="./images/portfolio-image/portfol1.jpg" alt="экран" width="370" />
             <div class="card-border">
             <h2 class="portfolio-example">Технокряк</h2>
@@ -105,19 +111,49 @@
     </section>
     </main>
 
+
 <footer class="footer">
     <div class="container">
-        <a class="logo-footer link" href=""><span class="current">Web</span>Studio</a>
-        <address>
-            <ul class="footer-list list">
-                <li class="address"><a href="https://goo.gl/maps/V1P53VzgSbRP7Sv77" class="footer-address link"
-                        target="_blank" rel="noopener noindex nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
+        <div class="footer-contacts">
+            <div class="footer-text">
+                <address>
+                    <a class="logo-footer link" href=""><span class="current">Web</span>Studio</a>
 
-                <li class="mail"><a href="mailto:info@devstudio.com" class="footer-mail link">info@devstudio.com</a>
-                </li>
-                <li class="phone"><a href="tel:+380961111111" class="footer-phone link">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+                    <ul class="footer-list list">
+                        <li class="footer-item"><a href="https://goo.gl/maps/V1P53VzgSbRP7Sv77"
+                                class="footer-address link" target="_blank" rel="noopener noindex nofollow">г. Киев,
+                                пр-т Леси Украинки, 26</a></li>
+
+                        <li class="footer-item"><a href="mailto:info@devstudio.com"
+                                class="footer-mail link">info@devstudio.com</a></li>
+                        <li class="footer-item"><a href="tel:+380961111111" class="footer-phone link">+38 096 111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="join">
+                <h3 class="join-title">присоединяйтесь</h3>
+                <ul class="socials-footer">
+                    <li class="soc-item-footer"> <a href="" class="soc-link-footer"> <svg class="soc-icon-footer"
+                                width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg></a></li>
+                    <li class="soc-item-footer"> <a href="" class="soc-link-footer"> <svg class="soc-icon-footer"
+                                width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="soc-item-footer"> <a href="" class="soc-link-footer"> <svg class="soc-icon-footer"
+                                width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="soc-item-footer"> <a href="" class="soc-link-footer"> <svg class="soc-icon-footer"
+                                width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
     </body>
