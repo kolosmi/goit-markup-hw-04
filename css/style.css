@@ -313,6 +313,7 @@ margin: 0 auto;
        padding-top: 94px;
        padding-bottom: 94px;
         }
+        
 .features-item::before {
     display: block;
     content: "";
@@ -357,16 +358,7 @@ display: flex;
     color: var(--titles-color);    
 }
 
-.product-title::before {
-    content: "";
-    width: 50px;
-    height: 60px;
-    background-color: green;
-    background-image: url(../images/envel.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-}
+
 
 .product-list{
 
