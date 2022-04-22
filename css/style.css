@@ -682,7 +682,7 @@ margin-right: 30px;
  /*footer*/
 
 .footer {
-   margin: 0 auto;
+    margin: 0 auto;
     display: flex;
     padding-bottom: 60px;
     align-items: baseline;
@@ -692,12 +692,12 @@ margin-right: 30px;
 
    .footer-contacts{
        display: flex;
-      
+    margin: 0 auto;
    }
 
 
    .footer-text {
-    display: flex;  
+    display: flex;
    }
 
 .footer-list {
