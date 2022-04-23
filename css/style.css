@@ -554,8 +554,9 @@ color: var(--hero-footer-color);
 margin-bottom: 30px;
 margin-right: 30px;
     width: 370px;
-
+height: 404px;
     cursor: pointer;
+   border: 1px solid #EEEEEE;
 }
 
 
@@ -568,7 +569,12 @@ margin-right: 30px;
      margin-bottom: 0;
 }
 
-.portfolio-item :hover
+.portfolio-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.portfolio-link :hover 
 {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -583,9 +589,10 @@ margin-right: 30px;
 }
  
 .card-border {
+   
     padding: 20px 24px;
 
-    border: 1px solid #EEEEEE;
+   
 
     width: 370px;
 
@@ -630,17 +637,19 @@ margin-right: 30px;
 }
 
 .clients-list {
-    display: inline-flex;
-   align-items: center;
-    padding-bottom: 94px;
-    margin: 0 auto;
-    justify-content: center;
+    display: flex;
+   margin-bottom: 94px;
+   margin-left: 0;
+}
+
+.clients-list .clients-logo+.clients-logo {
+    margin-left: 30px;
 }
 
 .clients-logo {
     width: 170px;
     height: 92px;
-    padding-top: 16px;
+    
     align-items: center;
     justify-content: center;
    
@@ -649,35 +658,25 @@ margin-right: 30px;
 
     fill: #AFB1B8;
     cursor: pointer;
-    margin-left: 0;
-}
-
-
-
-.clients-list .clients-logo + .clients-logo {
-    margin-left: 30px;
-}
-
-
-.client-icon {
     display: flex;
-    justify-content: center;
-    
-    fill: #AFB1B8;
-   align-items: center;
+}
+
+
+
+.clients-logo :hover
+{
+    fill: var(--button-color);
    
 }
 
 
-.clients-link {
-    display: flex;     
-    margin: auto;
-  }
 
-.clients-logo :hover {
-    
-    fill: var(--button-color);    
-}
+.client-icon {
+    display: flex;
+        
+    fill: #AFB1B8;
+  
+   }
 
  /*footer*/
 
